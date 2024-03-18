@@ -1,0 +1,53 @@
+Enter guess 1: a
+---------------
+Guess 1:  a b d u c e
+         🟨⬛⬛⬛🟨⬛
+---------------
+
+Enter guess 2: a
+---------------
+Guess 1:  a b d u c e
+         🟨⬛⬛⬛🟨⬛
+---------------
+Guess 2:  c a g i l y
+         🟩🟨⬛⬛⬛🟨
+---------------
+
+Enter guess 3: a
+---------------
+Guess 1:  a b d u c e
+         🟨⬛⬛⬛🟨⬛
+---------------
+Guess 2:  c a g i l y
+         🟩🟨⬛⬛⬛🟨
+---------------
+Guess 3:  c o p a y s
+         🟩🟨⬛🟨🟨⬛
+---------------
+
+Enter guess 4: a
+---------------
+Guess 1:  a b d u c e
+         🟨⬛⬛⬛🟨⬛
+---------------
+Guess 2:  c a g i l y
+         🟩🟨⬛⬛⬛🟨
+---------------
+Guess 3:  c o p a y s
+         🟩🟨⬛🟨🟨⬛
+---------------
+Guess 4:  c r a y o n
+         🟩🟩🟩🟩🟩🟩
+---------------
+
+Correct! You won in 4 guesses!
+
+Games won in:
+1 moves: 0
+2 moves: 0
+3 moves: 0
+4 moves: 1
+5 moves: 0
+6 moves: 0
+Games lost: 0
+Would you like to play again (y/n)? n

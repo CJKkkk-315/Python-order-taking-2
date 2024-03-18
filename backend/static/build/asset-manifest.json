@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.67bf27a3.css",
+    "main.js": "/static/js/main.364e45f8.js",
+    "static/js/787.5313a6fa.chunk.js": "/static/js/787.5313a6fa.chunk.js",
+    "static/media/item4.png": "/static/media/item4.be7b40f858f7cb46b1be.png",
+    "static/media/item2.png": "/static/media/item2.b9bc5fc1965f148e8b3a.png",
+    "static/media/item5.png": "/static/media/item5.810b8b5d61b5a3db18bb.png",
+    "static/media/item1.png": "/static/media/item1.d32d42399b2a0df8d0fe.png",
+    "static/media/item3.png": "/static/media/item3.5bcb46196868d23b1161.png",
+    "static/media/Alexandra.png": "/static/media/Alexandra.9f48d77482a042a1d14c.png",
+    "static/media/GDPR.pdf": "/static/media/GDPR.6379de9193520644068e.pdf",
+    "static/media/Nancy.png": "/static/media/Nancy.0c3e55ea06dc96f2c050.png",
+    "static/media/Uriel.png": "/static/media/Uriel.02957f58b3ff9cd37d2b.png",
+    "static/media/Jenny.png": "/static/media/Jenny.bc04f9950d72397fdcfc.png",
+    "static/media/Mia.png": "/static/media/Mia.249d1a17c467e2da07a1.png",
+    "static/media/Rachel.png": "/static/media/Rachel.35e4a01cc1d2906f381c.png",
+    "index.html": "/index.html",
+    "main.67bf27a3.css.map": "/static/css/main.67bf27a3.css.map",
+    "main.364e45f8.js.map": "/static/js/main.364e45f8.js.map",
+    "787.5313a6fa.chunk.js.map": "/static/js/787.5313a6fa.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.67bf27a3.css",
+    "static/js/main.364e45f8.js"
+  ]
+}

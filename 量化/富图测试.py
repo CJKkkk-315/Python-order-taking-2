@@ -1,0 +1,9 @@
+import requests
+from bs4 import BeautifulSoup
+headers = {
+    'Cookie':'cna=E25IGV3NpwQCAXgpos85oalx; t=0ef3b2bff4e4cc23d935e879a8e56496; cookie2=1e4685835b7a0513fe5e5643758c44a0; dnk=%5Cu75AF%5Cu50BB%5Cu611A%5Cu75F4%5Cu72C2; uc1=cookie16=W5iHLLyFPlMGbLDwA%2BdvAGZqLg%3D%3D&pas=0&existShop=false&cookie21=Vq8l%2BKCLjA%2Bl&cookie14=UoewBjkuVufNsw%3D%3D&cookie15=URm48syIIVrSKA%3D%3D; uc3=id2=VyyX5B%2F1PtZI&lg2=UIHiLt3xD8xYTw%3D%3D&nk2=1C%2FtfCGNllKIZw%3D%3D&vt3=F8dCvUCbd28VMRhH6T4%3D; tracknick=%5Cu75AF%5Cu50BB%5Cu611A%5Cu75F4%5Cu72C2; uc4=nk4=0%401v6sCuK1P8GU4UUGB6r27S4I56WW&id4=0%40VXtYiAOX3%2BMXTkX95%2BjvMlGsEg4%3D; lgc=%5Cu75AF%5Cu50BB%5Cu611A%5Cu75F4%5Cu72C2; login=true; sgcookie=E100P7zXMBuEVa0g9bxV%2FZhDHK6gry1MxD4nj4js22j1DnNkzOqd4rNiYXyaOf8EEq8B7yuEIkwxTGjQ91wcajJGb50bRhSBelmMLRuU8STPeGg%3D; cancelledSubSites=empty; csg=f23b8760; enc=QBEnt7Dm8nvJHf9NTfMghzJcaB4HqDa3ITS7%2BGiVM05LXtsXF%2B%2FRYktDGOYi4z4wWGfR%2FrrxE1mtZyTaGm1v3Q%3D%3D; _tb_token_=f07060ebe7811; OZ_1U_2061=vid=v221c363a54997.0&ctime=1648296416&ltime=1648296413; OZ_1Y_2061=erefer=https%3A//s.taobao.com/&eurl=https%3A//detail.tmall.com/item.htm%3Fspm%3Da230r.1.14.16.685b442bh5gA7n%26id%3D651508730317%26ns%3D1%26abbucket%3D11&etime=1646380051&ctime=1648296416&ltime=1648296413&compid=2061; OZ_SI_2061=sTime=1646379874&sIndex=12; xlly_s=1; tfstk=c4b5BKGmrYDWnrrEz_N4zRfpu3ThZb2Xiu9RNMJOXnp3ZIC5i6gwCxoGxxYe9I1..; l=eBE2lDJIgV0-SNesBOfaourza779QKRbmuPzaNbMiOCP9OCe5-FdW6VPg28wCnGVn6uJR3-6fuSgB-YaayUCVxv9-e6n9MptndLh.; isg=BMXFNg9yCwL3VSxD5zAte9NFxAH_gnkUVzYI4Mcqk_wKXuTQj9El5PM0aIKoGpHM'
+}
+url = 'https://detail.tmall.com/item.htm?id=559688220155'
+response = requests.get(url,headers=headers)
+soup = BeautifulSoup(response.text)
+print(soup)
